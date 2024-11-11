@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    float a, b; // Changed to float for decimal precision
+    float a, b; 
     cout << "Enter first number: ";
     cin >> a;
     cout << "Enter second number: ";
