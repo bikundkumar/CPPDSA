@@ -21,9 +21,9 @@ int binSearch(int arr[], int n, int key) {
 }
 
 int main() {
-    int arr[] = {4,6,9,10};cout << binSearch(arr, 5, 3) << endl;
+    int arr[] = {4,6,9,10};
     int n = sizeof(arr) / sizeof(int);
-    int key = 6;
+    int key = 0;
 
     cout << binSearch(arr, n, key) << endl;
 }
