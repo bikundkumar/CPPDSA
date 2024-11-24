@@ -16,4 +16,6 @@ int main() {
     int key = 8;
 
     cout << search_linear(arr,n,key) << endl;
+
+    return 0;
 }
