@@ -2,20 +2,24 @@
 using namespace std;
 
 int main() {
-    int arr[] = {5,7,4,3,8,7};
+    int arr[] = {3,6,7,2,7,9,5};
     int n = sizeof(arr) / sizeof(int);
 
     int copyArr[n];
 
-    for (int i = 0; i < n; i++) {
+    for(int i = 0; i < n; i++) {
         int j = n-i-1;
-        copyArr[i] = arr[j];
+        copyArr[j] = arr[i];
     }
-    for (int i = 0; i < n; i++) {
+
+    for(int i = 0; i < n; i++) {
         arr[i] = copyArr[i];
     }
-    for (int i = 0; i < n; i++) {
+
+    for(int i = 0; i < n; i++) {
         cout << arr[i] <<" ";
     }
-    cout << endl;
+    cout <<"\n";
+
+    return 0;
 }

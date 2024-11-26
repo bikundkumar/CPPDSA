@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int search_linear(int arr[], int n, int key) {
+int linear_Search(int arr[], int n, int key) {
     for(int i = 0; i < n; i++) {
         if(arr[i] == key) {
             return i;
@@ -11,11 +11,9 @@ int search_linear(int arr[], int n, int key) {
 }
 
 int main() {
-    int arr[] = {4,3,8,5,9};
+    int arr[] = {4,3,7,5,9,2};
     int n = sizeof(arr) / sizeof(int);
-    int key = 8;
+    int key = 9;
 
-    cout << search_linear(arr,n,key) << endl;
-
-    return 0;
+    cout << linear_Search(arr,n,key) << endl;
 }
