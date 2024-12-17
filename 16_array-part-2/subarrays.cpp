@@ -10,7 +10,7 @@ int main() {
             for (int k = i; k <= j; k++) {
                 cout << arr[k] << " ";
             }
-            cout << ", ";
+            cout << ",";
         }
         cout << endl;
     }
