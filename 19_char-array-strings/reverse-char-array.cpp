@@ -18,5 +18,5 @@ int main() {
 
     reverse(str, strlen(str));
 
-    cout << "reverse = " << str << endl;
+    cout << "reverse = " << str << endl;   
 }
