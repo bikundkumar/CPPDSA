@@ -1,18 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int fac(int n) {
+int power(int n) {
     if (n == 0) {
         return 1;
     }
-    return n  * fac(n-1);
-
+    return 2 * power(n-1);
 }
 
 int main() {
-    int n = 3;
+    int n = 5;
 
-    cout << fac(n) << endl;
-
-    return 0;
+    cout <<power(n) << endl;
 }

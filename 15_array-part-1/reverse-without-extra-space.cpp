@@ -9,9 +9,7 @@ int main() {
 
     while(start < end) {
         // swap function
-        int temp = arr[start];
-        arr[start] = arr[end];
-        arr[end] = temp;
+        swap(arr[start], arr[end]);
         start++;
         end--;
     }
