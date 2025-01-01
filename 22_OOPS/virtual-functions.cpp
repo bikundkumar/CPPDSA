@@ -1,5 +1,5 @@
 #include <iostream>
-using namesoace std;
+using namespace std;
 
 class Base {
 	public:
@@ -8,7 +8,7 @@ class Base {
 		}
 };
 
-class Derived {
+class Derived : public Base{
 	public:
 
 		void hello() override {
