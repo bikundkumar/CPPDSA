@@ -22,5 +22,4 @@ int main() {
 	
 	obj.hello();
 	
-	return 0;
 }
