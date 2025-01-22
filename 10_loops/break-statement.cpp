@@ -2,9 +2,12 @@
 using namespace std;
 
 int main() {
-    int n;
-    cin >> n;
-    for (int i = 1; i <= n; i++) {
+    int i = 1;
+
+    while (i <= 10) {
+        if(i == 3)
+        break;
         cout << i << endl;
+        i++;
     }
 }

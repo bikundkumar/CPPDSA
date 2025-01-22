@@ -1,4 +1,7 @@
 {
     "files.autoSave": "afterDelay",
-    "editor.fontFamily": "JetBrainsMono Nerd  Font"
+    "editor.fontFamily": "JetBrainsMono Nerd  Font",
+    "files.associations": {
+        "ostream": "cpp"
+    }
 }
