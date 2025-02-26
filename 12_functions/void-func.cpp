@@ -1,12 +1,11 @@
 #include <iostream>
 using namespace std;
 
-void hello() {
-    cout <<"Hello Functions\n";
+void sayHello() {
+    cout <<"Hello :)\n";
 }
 
 int main() {
-    hello();
-
+    sayHello(); // function call
     return 0;
 }
