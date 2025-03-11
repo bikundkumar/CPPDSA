@@ -16,4 +16,6 @@ int main() {
     int a = 34, b = 6;
     first(a, b);
     cout << second(a,b) << endl;
+
+    return 0;
 }
